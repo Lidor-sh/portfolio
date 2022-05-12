@@ -13,10 +13,21 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
+    font-weight: bold;
 }
 
 .firstPage {
     align-items: center;
+}
+
+.homeHeader {
+    position: absolute;
+    font-family: "Macondo", sans-serif;
+    color: #edf0f1;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 42%;
+    font-size: 115%;
 }
 
 .myname {
@@ -25,13 +36,14 @@ li, a, button {
     position: absolute;
     display: flex;
     margin-left: 45%;
-    margin-top: 33%;
+    margin-top: 29%;
     font-size: 270%;
 }
 
 .nav {
     position: absolute;
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
     margin-left: 28%;
     margin-top: 42%;
@@ -50,7 +62,7 @@ li, a, button {
 }
 
 #item li a:hover{
-    color: #0088a9
+    color: #c41d34
 }
 
 button {
@@ -74,7 +86,7 @@ button:hover {
     width: 10%;*/
     position: absolute;
     margin: auto;
-    top: 0;
+    top: -17%;
     left: 0;
     right: 0;
     bottom: 0;
