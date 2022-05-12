@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Macondo&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,15 +9,74 @@
 }
 
 li, a, button {
-    font-family: "Macondo";
+    font-family: "Macondo", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
 }
 
-header {
+.firstPage {
+    align-items: center;
+}
+
+.myname {
+    font-family: "Great Vibes", cursive;
+    color: #edf0f1;
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 33%;
+    font-size: 270%;
+}
+
+.nav {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    margin-left: 28%;
+    margin-top: 42%;
     align-items: center;
     padding: 30px 10%;
 }
+
+#item li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#item li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+#item li a:hover{
+    color: #0088a9
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo {
+    /*display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 15%;
+    width: 10%;*/
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 10%;
+  }
