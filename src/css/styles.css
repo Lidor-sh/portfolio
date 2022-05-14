@@ -46,14 +46,14 @@ li, a, button {
     margin-left: -50%;
 }
 
-.left section {
+.left_section {
     display: flex;
     background-color: #c41d34;
     justify-content: center;
     align-items: center;
 }
 
-.left section p {
+.left_section p {
     font-family: "Great Vibes", cursive;
     background-color: #c41d34;
     color: #edf0f1;
@@ -65,17 +65,16 @@ li, a, button {
     background-color: #edf0f1;
     width: 50%;
     height: 100%;
-    margin-left: 50%;
 }
 
-.right section {
+.right_section {
     display: flex;
     background-color: #edf0f1;
     justify-content: center;
     align-items: center;
 }
 
-.right section p {
+.right_section p {
     font-family: "Great Vibes", cursive;
     background-color: #edf0f1;
     color: #24252A;
