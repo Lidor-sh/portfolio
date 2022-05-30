@@ -5,14 +5,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    
+    background-color: #24252A;
 }
 
 li, a, button {
@@ -50,6 +49,7 @@ li, a, button {
     justify-content: center;
     align-items: center;
     background-color: #c41d34;
+    margin: 0!important;
 }
 
 .about-title h2{
@@ -57,6 +57,10 @@ li, a, button {
     color: #edf0f1;
     font-family: "Macondo", sans-serif; ;
     font-size: 500%;
+}
+
+.about-pic{
+    position: absolute;
 }
 
 .about-pages{
@@ -83,6 +87,58 @@ li, a, button {
 
 .about-pages div> h2{
     background-color: #edf0f1;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+}
+
+.hexagon2 {
+    width: 160px;
+    height: 320px;
+    margin: -260% 0 0 10px;
+}
+
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 150%;
+    background-image: url("../ui/me.jpeg");
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+}
+
+.footer{
+    margin-top: 200vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24252A;
 }
 
 .left {
